@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #FFB905; 
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #555
+    ; 
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    background-color: #333;
+    color: #fff;
+}
+.homePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trackTitle{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+header{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+}
+main{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav{
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+
+}
+nav :hover{
+    color: #FFB905;
+}
+.btnContainer{
+    font-size: 30px;
+    color: #FFB905;
+}
+.timetablePage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    
+}
+.leftMain{
+    width: 20%;
+    height: 100vh;
+    /* background-color: #FFB905; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.rightMain{
+    width: 20%;
+    height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+    box-shadow: 0px 0px 15px 3px #fff;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.time{
+    text-align: center;
+    font-size: 18px;
+}
+.timetable{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: 700;
+}
+.efir{
+    color: #FFB905;
+}
+.ifYouOn{
+    font-size: 28px;
+    font-weight: 500;
+}
+.textArea{
+    font-size: 22px;
+}
+.contactUsBtn{
+    width: 300px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFB905;
+    color: #333;
+    font-size: 28px;
+}
+
+
+

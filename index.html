@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yantarne FM</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js' integrity='sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==' crossorigin='anonymous'/>
+    <link rel="icon" href="./img/headphones.png">
+</head>
+<body>
+    <div class="wrap">
+        <div class="homePage">
+            <header>
+                <img src="./img/logo.png" alt="">
+                <nav>
+                    <a href="#" >Розклад</a>
+                    <a href="#">Хто ми</a>
+                    <a href="#">Наші друзі</a>
+                    <a href="#">Контакти</a>
+                    
+                </nav>
+            </header>
+            <main>
+                <div class="trackTitle"></div>
+                    <div class="btnContainer">
+                        <i class="fa-solid fa-volume-xmark" id="soundIcon"></i>
+                    </div>
+                    <input type="range" name="volumeInput" id="volumeInput">
+            </main>
+            
+          
+            
+        </div>
+        <div class="timetablePage" id="timeTable">
+            <div class="leftMain">
+                <div class="card">
+                    <img src="./img/coffee.png" alt="coffe">
+                    <div class="title">Ранкове шоу <br> "НЕ СПАТИ"</div>
+                    <div class="time">Щобудня 09:00-13:00</div>
+                </div>
+                <div class="card">
+                    <img src="./img/news.png" alt="coffe">
+                    <div class="title">Новини</div>
+                    <div class="time">Щогодини</div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="timetable"><div>Розклад</div><div class="efir">Ефірів</div></div>
+                <p class="ifYouOn">Ввімкнувши 88.9 ти:</p>
+                <p class="textArea">Знайдеш найкращу українську музику! Почуєш музичні <br> новинки, потрапиш на ранкове шоу «НЕ СПАТИ» та денне <br> шоу «ТА Й ТАКЕ». Дізнаєшся всі актуальні новини світу, <br> країни і громади. Відкриєш для себе програму «Янтерв’ю», <br> де познайомишся з цікавими людьми свого міста.</p>
+                <button class="contactUsBtn">Зв'язатися з нами</button>
+            </div>
+            <div class="rightMain">
+                <div class="card">
+                    <img src="./img/micro.png" alt="coffe">
+                    <div class="title">Денне шоу <br> "ТАЙ ТАКЕ"</div>
+                    <div class="time">Щобудня 14:00-18:00</div>
+                </div>
+                <div class="card">
+                    <img src="./img/interview.png" alt="coffe">
+                    <div class="title">Янтерв’ю</div>
+                    <div class="time">Слідкуй за анонсами в <br> соцмережах</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
